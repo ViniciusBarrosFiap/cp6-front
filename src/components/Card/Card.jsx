@@ -1,20 +1,30 @@
+
 import Card from 'react-bootstrap/Card';
-import imgProduto from '../../img/produtoCarta.jpg'
-import "./Card.css"
-function CardPoke() {
+import PropTypes from 'prop-types';
+import Button from 'react-bootstrap/Button';
+function PokeCard(props) {
   return (
-    <Card className="bg-dark text-white">
-      <Card.Img className='w-10' src={imgProduto} alt="Card image" />
-      <Card.ImgOverlay>
-        <Card.Title>Card title</Card.Title>
-        <Card.Text>
-          This is a wider card with supporting text below as a natural lead-in
-          to additional content. This content is a little bit longer.
-        </Card.Text>
-        <Card.Text>Last updated 3 mins ago</Card.Text>
-      </Card.ImgOverlay>
-    </Card>
+    <Card style={{ width: '15rem' }}>
+    <Card.Body>
+      <Card.Img src={props.imagem}></Card.Img>
+      <Card.Title>{props.titulo}</Card.Title>
+      <Card.Text>
+        {props.descricao}
+      </Card.Text>
+      <Card.Title>
+        R$ {props.preco},00
+      </Card.Title>
+      
+      <Button variant="primary">Detalhes</Button>{' '}
+      
+    </Card.Body>
+  </Card>
   );
 }
-
-export default CardPoke;
+PokeCard.propTypes = {
+  titulo: PropTypes.string,
+  descricao: PropTypes.string,
+  preco: PropTypes.number,
+  imagem: PropTypes.string
+}
+export default PokeCard;
