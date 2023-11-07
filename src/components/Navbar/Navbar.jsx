@@ -10,7 +10,7 @@ function NavBar() {
       <img className="w-10" src={logo} alt="" />
         <Container>
           <Navbar.Brand href="#home">PokeBuy</Navbar.Brand>
-          <Nav className="me-auto">
+          <Nav className="me-auto w-100">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#features">Produtos</Nav.Link>
             <Nav.Link href="#pricing">Contatos</Nav.Link>

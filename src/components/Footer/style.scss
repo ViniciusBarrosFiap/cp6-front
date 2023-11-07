@@ -1,0 +1,13 @@
+.container{
+    .esquerdo{
+        img{
+            width: 300px;
+        }
+    }
+    .direito{
+        ul{
+            display: flex;
+            list-style: none;
+        }
+    }
+}

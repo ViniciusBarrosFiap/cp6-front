@@ -3,6 +3,7 @@ import CarroselBrabo from "./components/Carousel";
 import Header from "./components/Header/Header";
 import "./App.css"
 import TabelaPrecos from "./components/TabelaPrecos/TabelaPrecos";
+import Footer from "./components/Footer/Footer";
 const produtos = [{
   titulo: "Triple pack pokemon rixa rebelde",
   descricao: "Triple Pack Realeza Absoluta - Rillaboom",
@@ -83,6 +84,7 @@ function App() {
       <section className="d-flex justify-content-center">
         <TabelaPrecos produtos={produtos} />
       </section>
+      <Footer/>
     </>
   );
 }

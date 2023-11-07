@@ -21,7 +21,6 @@ function CarroselBrabo() {
     <Carousel className="container" activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
         <img src={img1} alt="" style={{ width: "100%"}} />
-
       </Carousel.Item>
       <Carousel.Item>
         <img src={img2} alt="" style={{ width: "100%"}} />
