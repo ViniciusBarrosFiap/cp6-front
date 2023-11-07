@@ -18,37 +18,37 @@ function CarroselBrabo() {
   };
 
   return (
-    <Carousel activeIndex={index} onSelect={handleSelect}>
+    <Carousel className="container" activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
-        <img src={img1} alt="" style={{ width: "100%" }} />
+        <img src={img1} alt="" style={{ width: "100%"}} />
 
       </Carousel.Item>
       <Carousel.Item>
-        <img src={img2} alt="" style={{ width: "100%" }} />
+        <img src={img2} alt="" style={{ width: "100%"}} />
         
       </Carousel.Item>
       <Carousel.Item>
-        <img src={img3} alt="" style={{ width: "100%" }} />
+        <img src={img3} alt="" style={{ width: "100%"}} />
         
       </Carousel.Item>
       <Carousel.Item>
-        <img src={img4} alt="" style={{ width: "100%" }} />
+        <img src={img4} alt="" style={{ width: "100%"}} />
         
       </Carousel.Item>
       <Carousel.Item>
-        <img src={img5} alt="" style={{ width: "100%" }} />
+        <img src={img5} alt="" style={{ width: "100%"}} />
         
       </Carousel.Item>
       <Carousel.Item>
-        <img src={img6} alt="" style={{ width: "100%" }} />
+        <img src={img6} alt="" style={{ width: "100%"}} />
         
       </Carousel.Item>
       <Carousel.Item>
-        <img src={img7} alt="" style={{ width: "100%" }} />
+        <img src={img7} alt="" style={{ width: "100%"}} />
         
       </Carousel.Item>
       <Carousel.Item>
-        <img src={img8} alt="" style={{ width: "100%" }} />
+        <img src={img8} alt="" style={{ width: "100%"}} />
       </Carousel.Item>
     </Carousel>
   ); 

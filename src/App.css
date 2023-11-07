@@ -1,5 +1,6 @@
 .d-flex-around{
     display: flex;
-    justify-content: space-around;
+    width:100%;
+    justify-content: center;
     flex-wrap: wrap;
 }
