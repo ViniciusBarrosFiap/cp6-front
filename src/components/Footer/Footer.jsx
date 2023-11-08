@@ -14,6 +14,11 @@ function Footer(){
                     <li>contato</li>
                 </ul>
             </div>
+            <h1>Trabalho feito por:</h1>
+            <ul>
+                <li>RM98297 - Lucas Pisaneschi Speranzini</li>
+                <li>RM97824 - Vinicius Oliveira de Barros</li>
+            </ul>
         </footer>
     )
 }
